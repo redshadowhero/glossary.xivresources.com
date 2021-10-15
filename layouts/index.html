@@ -1,4 +1,7 @@
 {{ define "main" }}
+<meta property="og:title" content="{{.Title}}" />
+<meta property="og:description" content="An overview of the various terms in The Balance's FFXIV Glossary" />
+<meta property="og:image" content="/img/balance_logo_orange_transparent.png" />
 <main>
     <article>
         <header>
@@ -15,6 +18,6 @@
         </li>
     {{ end }}
     </ul>
-</main>
+</main>    
 {{- partial "footer.html" . -}}
 {{ end }}
