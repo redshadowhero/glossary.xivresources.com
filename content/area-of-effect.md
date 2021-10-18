@@ -1,5 +1,7 @@
 ---
 title: Area of Effect
+aliases:
+  - /aoe/
 ---
 | | |
 | --- | --- |
