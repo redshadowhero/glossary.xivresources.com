@@ -23,6 +23,11 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: "Alias URLs"
+        name: "aliases"
+        hint: "Enter alias urls which have leading and trailing slashes. For example, set an alias for `/area-of-effect/` to `/aoe/`"
+        required: false
+        widget: "list"
       - { label: 'Opengraph Description', name: 'description', widget: 'string', required: false }
       - label: 'Opengraph Image(s)'
         name: 'images'
