@@ -1,4 +1,6 @@
 ---
 title: Enmity
 ---
-| noun | 1.  	See "aggro"	|
+|||
+|---|---|
+| noun | 1. See "aggro" |
